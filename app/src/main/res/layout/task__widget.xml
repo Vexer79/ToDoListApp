@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/background"
+    style="@style/Widget.MyApplication.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.MyApplication.AppWidgetContainer">
+
+
+    <Button
+        android:id="@+id/add_button_widget"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:text="+"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="377dp"
+        android:layout_height="666dp"
+        android:layout_below="@+id/add_button_widget"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/CurrentTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/EmptyDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="125dp"
+        android:text="Завдання відсутні!"
+        android:textAlignment="center" />
+
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Task_Activity_test">
+
+    <Button
+        android:id="@+id/add_button2"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="7dp"
+        android:height="50dp"
+        android:text="@string/save_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cancel2" />
+
+    <Button
+        android:id="@+id/cancel2"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="7dp"
+        android:text="Скасувати"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="370dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:ems="10"
+        android:hint="Завдання"
+        android:gravity="start|top"
+        android:inputType="textCapSentences|textMultiLine|textAutoComplete"
+        android:windowSoftInputMode="stateVisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

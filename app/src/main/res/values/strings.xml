@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">To Do</string>
+    <string name="appwidget_text">To Do list</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="save_button">Зберегти</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="add_button">+</string>
+    <string name="test_button">Button</string>
+    <string name="test_text">Textfield</string>
+    <string name="test_list" value="10">list</string>
+    <string name="your_stocks">test</string>
+    <array name="test_array"></array>
+</resources>
